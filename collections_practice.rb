@@ -28,6 +28,7 @@ end
 def find_a(array)
   array.select do |value|
     value[0] == "a"
+  end
 end
 
 def sum_array(array)
